@@ -1,5 +1,5 @@
 :: StoryTitle
-Untitled Story
+CMPT376
 
 
 :: StoryData
@@ -18,6 +18,12 @@ Untitled Story
 }
 
 
+:: Add even more dark pattern ideas (different sized buttons). {"position":"500,1075","size":"100,100"}
+[[Everyone’s got something to say, whatever. Continue work as normal]]
+
+[[Maybe they have a point....]]
+
+
 :: Comply with the supervisor's and client's requests, even though you realize the design might be unethical {"position":"2600,700","size":"100,100"}
 Despite your concerns about the potential confusion and ethical implications of the clients request, you proceed to implement the changes exactly as requested.
 
@@ -34,7 +40,7 @@ At the celebration, you overhear some of the client’s managers discussing your
 [[Secretly implement customer protection features]]
 
 
-:: Confront the managers on the unethical design {"position":"2375,875","size":"100,100"}
+:: Confront the managers on the unethical design {"position":"2425,875","size":"100,100"}
 You decide to speak up and confront the managers about the ethical concerns. They acknowledge the feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
 
 [[Report the conversation to your supervisor and push for a redesign]]
@@ -56,30 +62,54 @@ Your satisfaction with your job declines, and you start to question your role in
 (display: "ENDING B")
 
 
-:: ENDING A {"position":"900,1700","size":"100,100"}
-Client is convinced to not include dark patterns, the website goes live without the buttons being misleading, earn standard profits.  
+:: Directly inform the client of your findings {"position":"900,1225","size":"100,100"}
+You send your findings straight to the client without informing your team. You recieve no response.
+
+Your supervisor reaches out saying he got an angry email from the client . You supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
+
+[[Switch projects]] 
 
 
-:: ENDING B {"position":"1200,1700","size":"100,100"}
+:: ENDING B {"position":"1100,1525","size":"100,100"}
+
 The changes were successfully implemented as per the client’s wishes.
 Client has major profit improvements! (unethical)
 
+[[Finish]] 
 
-:: Ending C {"position":"1500,1700","size":"100,100"}
-Dropped the client
 
+:: ENDING C {"position":"1350,1525","size":"100,100"}
+The client notices that they have sub-par profits. They complete an investigation and notice that the company didn't implement the red left button and green right button for agreeing to the protected warranty. There were also additional features added like a pop-up confirmation that the client didn't agree to. 
+
+The client tells the company this button option was an explicit ask to boost profits for their protected warranty. They warn the company that they will find another business partner if proper action is not taken to ensure this doesn't happen in the future.
+
+The head of the department and your supervisor call you for a meeting. They criticize you for implementing these changes without notifying anyone and for disobeying the client's demands.
+
+You are moved to another project and your changes are reverted by someone else from your department.
+
+[[Finish]]
 
 
 :: Ending R-C {"position":"2750,1325","size":"100,100"}
 The next day, you return to work and carry on with your normal tasks, putting the ethical concerns aside as you focus on your daily responsibilities.
+
+[[Finish]]
 
 
 :: Everyone’s got something to say, whatever. Continue work as normal {"position":"225,1325","size":"100,100"}
 (display: "ENDING B")
 
 
+:: Finish {"position":"1200,1800","size":"100,100"}
+CYOA Complete!
+
+
+:: Help implement the client's original design {"position":"1100,1350","size":"100,100"}
+(display: "ENDING B")
+
+
 :: Implement the client’s requests exactly as requested {"position":"225,1075","size":"100,100"}
-Though nobody knows it was Stewart, the website was exposed on a developer reddit thread for being unethical!
+In the middle of development, the client's website was exposed on a developer reddit thread for being unethical!
 
 [[Everyone’s got something to say, whatever. Continue work as normal]]
 
@@ -87,28 +117,11 @@ Though nobody knows it was Stewart, the website was exposed on a developer reddi
 
 
 :: Implements the implementations as-is, boss’s orders! {"position":"375,950","size":"100,100"}
-Stewart, oblivious to the unethicalness is happy to do his job. He has a few ideas to tackle this project
+You are oblivious to the unethicalness and you are happy to do this job. You have a few ideas to tackle this project
 
 [[Implement the client’s requests exactly as requested]]
 
-[[Stewart adds even more dark pattern ideas (different sized buttons).]]
-
-
-:: Inform Client directly {"position":"900,1225","size":"100,100"}
-ENDING
-
-Supervisor is frustrated that he didn’t keep the team in the loop. Stewart is moved to another project.
-
-The changes were successfully implemented as per the client’s wishes.
-Client has major profit improvements! (unethical)
-
-
-:: Inform Supervisor {"position":"1100,1225","size":"100,100"}
-Supervisor decides that this too is unethical. Your supervisor gives you the reins
-
-[[Try to convince the client that it’s bad (cite code of ethics and potential legal consequences)]]
-
-[[Ending C]]
+[[Add even more dark pattern ideas (different sized buttons).]]
 
 
 :: Look for a new job where ethical concerns are prioritized {"position":"2225,1225","size":"100,100"}
@@ -117,6 +130,8 @@ You realize that you can no longer work on projects that go against your values 
 Over time, complaints and refund requests increase, and although they do not directly affect you, the guilt begins to take its toll. Deciding you cannot compromise your principles, you resign from your position. 
 
 You search for an employer that respects ethical concerns and eventually find a company that values the ACM Code of Ethics . In your new role, you feel fulfilled but you still retain a lasting guilt on the damage you may have contributed to.
+
+[[Finish]]
 
 
 :: Maintain your current role at COMPANY NAME {"position":"2600,1300","size":"100,100"}
@@ -149,31 +164,56 @@ You realize you are powerless in this situation and you begin to question your f
 [[Maintain your current role at COMPANY NAME]]
 
 
+:: Report this to your supervisor {"position":"1100,1225","size":"100,100"}
+You reach out to you supervisor with your concerns of this UI design acting as a dark pattern. It can easily decieve users into accidentally buying a protection warranty when they didn't want one. 
+
+Your supervisor agrees that this current design is unethical but the client is a long-standing business partner with your company. They're one of the company's most profitable clients and it would be harmful to this relationship to make changes to the client's design.
+
+
+[[Directly inform the client of your findings]]
+
+[[Look for a new job where ethical concerns are prioritized]]
+
+[[Implement the client’s requests exactly as requested]]
+
+
 :: Review The Prototype {"position":"1075,850","size":"100,100"}
 When you look at the prototype, you immediately find it confusing. 
 
-The left arrow, which appears to suggest going back to a previous page or canceling an action, is now the button for accepting the company’s default product. 
+The left arrow, which appears to suggest going back to a previous page or canceling an action, is now the button for accepting the company’s default product. This button is also red, which may dissuade users from clicking it.
 
-The right arrow upgrades the user to the more expensive category while silently adding a protection warranty without  asking for confirmation. 
+The right arrow upgrades the user to the more expensive category while silently adding a protection warranty without asking for confirmation. This button is green, in contrast to the left arrow, and may subtly encourage users to click it.
 
 You realize that this design could lead to users feeling tricked or misled, which would be unethical to implement.
+
+You suspect that this design can harm users by tricking them into buying a protection warranty
+
 
 <!--You realize its bad, but still implement it-->
 [[Comply with the supervisor's and client's requests, even though you realize the design might be unethical]]
 
 <!--The "good" path-->
-[[Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics)]]
+[[You suspect that this design can harm users by tricking them into buying a protection warranty]]
 
 <!--You dont care that its bad-->
 [[Implements the implementations as-is, boss’s orders!]]
 
 
 :: Secretly implement customer protection features {"position":"1350,1225","size":"100,100"}
-Stewarts changes find its way in to the final product. The client notices lower than expected revenue and complains to supervisor. Supervisor sees that Stewart made the changes. His work is reverted and he is written up
+You decide to make your own changes with the user in mind. On the webpage you include a clear description of the protected warranty and payment information. 
 
-<!--Maybe shouldnt go straight to ending--->
+You re-label the left and right arrows as "Decline Protected Warranty" and "Accept Protected Warranty". You also include an additional pop-up window after a user presses "Accept Protected Warranty for (X amount)" for the user to confirm payment.
 
-(display:"ENDING B"))
+You also remove the red and green colors and make both buttons grey. This is so the user isn't automatically swayed to press the green button without reading the page.
+
+These changes find its way into the client's final product .
+
+[[The website goes live]]
+
+
+
+
+
 
 
 :: Start {"position":"1075,500","size":"100,100"}
@@ -181,7 +221,7 @@ You have just landed an exciting role as a UX/UI programmer at (COMPANY NAME), a
 
 This vision, combined with the vibrant, collaborative culture, attracts a diverse range of clients—from innovative tech startups to established enterprises seeking to revolutionize their online presence.
 
-On your first day, your supervisor approaches you with a welcoming smile. "We're excited to have you on board, Steward," they say. "Your first task is a request from one of our major clients: replace the website’s rounded rectangle buttons with arrows and adjust the color palette to mix red and green text.
+On your first day, your supervisor approaches you with a welcoming smile. "We're excited to have you on board," they say. "Your first task is a request from one of our major clients: replace the website’s rounded rectangle buttons with arrows and adjust the color palette to mix red and green text.
 
 [[Review The Prototype]]
 
@@ -199,26 +239,35 @@ You decide to accept the offer, and begin work on small and more ethical project
 
 The reducted pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfcation in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
 
-
-:: Stewart adds even more dark pattern ideas (different sized buttons). {"position":"500,1075","size":"100,100"}
-[[Everyone’s got something to say, whatever. Continue work as normal]]
-
-[[Maybe they have a point....]]
+[[Finish]]
 
 
-:: Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics) {"position":"1100,1100","size":"100,100"}
-Different button sizes/colors/arrows doesn’t seem to represent this protection option fairly. Stewart decides to take action
+:: Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics) {"position":"700,1600","size":"100,100"}
+test
 
-[[Inform Client directly]]
 
-[[Inform Supervisor]]
+:: Switch projects {"position":"900,1350","size":"100,100"}
+(display: "ENDING B")
 
-[[Secretly implement customer protection features]]
+
+:: The website goes live {"position":"1350,1350","size":"100,100"}
+<!--Maybe shouldnt go straight to ending--->
+
+(display:"ENDING C"))
 
 
 :: This is unethical! {"position":"675,1450","size":"100,100"}
 (display: "Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics)")
 
 
-:: Try to convince the client that it’s bad (cite code of ethics and potential legal consequences) {"position":"1100,1500","size":"100,100"}
-(display:"ENDING A")
+:: You suspect that this design can harm users by tricking them into buying a protection warranty {"position":"1100,1100","size":"100,100"}
+You recognize that an unsuspecting user could easily add a protection warranty, an additional cost, without them realizing it. As a user is buying your client's default project, they will likely assume that a right arrow will take them to the next page. The client's proposed design takes advantage of this and it acts as a dark pattern. This miscommuncation of what the user is agreeing to in their purchase concerns you.
+
+What do you choose to do about it?
+
+
+[[Directly inform the client of your findings]]
+
+[[Report this to your supervisor]]
+
+[[Secretly implement customer protection features]]
