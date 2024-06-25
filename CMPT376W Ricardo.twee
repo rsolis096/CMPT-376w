@@ -1,0 +1,262 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "D0CEFCB6-25BE-4A38-B16D-0A2A7E6E5664",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "ENDING": "red",
+    "ENDING-C": "red",
+    "ENDING-B": "red",
+    "Ending": "red"
+  },
+  "zoom": 1
+}
+
+
+:: Comply with the supervisor's and client's requests, even though you realize the design might be unethical {"position":"2600,700","size":"100,100"}
+Despite your concerns about the potential confusion and ethical implications of the clients request, you proceed to implement the changes exactly as requested.
+
+Some time after your implementation is deployed, your team is invited to a celebration.
+
+Turns out the client is pleased by your work and has recorded a significant increase in revenue since the new design went live. However, you can't shake off the feeling that something is wrong.
+
+At the celebration, you overhear some of the client’s managers discussing your implementation and you find out that there was a small increase in refunds from users who unintentionally purchased the protection plan as well as complaints regarding accessibility for visual impaired users, causing these users to have important information about their purchase obscured.
+
+(set: $storyPath to $storyPath + (a:"Complied with Supervisor and implemented the design"))
+
+[[Confront the managers on the unethical design]]
+
+[[Stay Silent and enjoy the free food]]
+
+[[Secretly implement customer protection features]]
+
+
+:: Confront the managers on the unethical design {"position":"2375,875","size":"100,100"}
+You decide to speak up and confront the managers about the ethical concerns. They acknowledge the feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
+
+(set: $storyPath to $storyPath + (a:"Confronted the managers on the unethical design"))
+
+[[Report the conversation to your supervisor and push for a redesign]]
+
+[[Continue to comply, focusing on the client's revenue success]]
+
+
+:: Continue to comply, focusing on the client's revenue success {"position":"2700,1200","size":"100,100"}
+Despite overhearing this conversation, you decide to continue complying with the client'sand supervisor's focus on revenue. 
+
+Overtime, complaints and refund requests increase but they do not directly affect you.
+
+Your satisfaction with your job declines, and you start to question your role in the company and the impact of your work on users.
+
+(set: $storyPath to $storyPath + (a:"Continued to comply, focusing on the client's success"))
+
+
+(display:"Ending R-C")
+
+
+:: Continue work as usual {"position":"450,1450","size":"100,100"}
+(display: "ENDING B")
+
+
+:: ENDING A {"position":"900,1700","size":"100,100"}
+Client is convinced to not include dark patterns, the website goes live without the buttons being misleading, earn standard profits.  
+
+
+:: ENDING B {"position":"1200,1700","size":"100,100"}
+The changes were successfully implemented as per the client’s wishes.
+Client has major profit improvements! (unethical)
+
+
+:: Endgame {"position":"1475,2150","size":"100,100"}
+Game Over
+
+Actions you took:
+
+(if: $storyPath's length > 0)[
+(for: each _item, ...$storyPath)[*  _item<br>]]
+
+
+
+:: Ending C {"position":"1500,1700","size":"100,100"}
+Dropped the client
+
+
+
+:: Ending R-C {"position":"2775,1325","size":"100,100"}
+The next day, you return to work and carry on with your normal tasks, putting the ethical concerns aside as you focus on your daily responsibilities.
+
+☞[[Endgame]]
+
+
+:: Everyone’s got something to say, whatever. Continue work as normal {"position":"225,1325","size":"100,100"}
+(display: "ENDING B")
+
+
+:: Implement the client’s requests exactly as requested {"position":"225,1075","size":"100,100"}
+Though nobody knows it was Stewart, the website was exposed on a developer reddit thread for being unethical!
+
+[[Everyone’s got something to say, whatever. Continue work as normal]]
+
+[[Maybe they have a point....]]
+
+
+:: Implements the implementations as-is, boss’s orders! {"position":"375,950","size":"100,100"}
+Stewart, oblivious to the unethicalness is happy to do his job. He has a few ideas to tackle this project
+
+[[Implement the client’s requests exactly as requested]]
+
+[[Stewart adds even more dark pattern ideas (different sized buttons).]]
+
+
+:: Inform Client directly {"position":"900,1225","size":"100,100"}
+ENDING
+
+Supervisor is frustrated that he didn’t keep the team in the loop. Stewart is moved to another project.
+
+The changes were successfully implemented as per the client’s wishes.
+Client has major profit improvements! (unethical)
+
+
+:: Inform Supervisor {"position":"1100,1225","size":"100,100"}
+Supervisor decides that this too is unethical. Your supervisor gives you the reins
+
+[[Try to convince the client that it’s bad (cite code of ethics and potential legal consequences)]]
+
+[[Ending C]]
+
+
+:: Look for a new job where ethical concerns are prioritized {"position":"2225,1225","size":"100,100"}
+You realize that you can no longer work on projects that go against your values and the trust of the users. 
+
+Over time, complaints and refund requests increase, and although they do not directly affect you, the guilt begins to take its toll. Deciding you cannot compromise your principles, you resign from your position. 
+
+You search for an employer that respects ethical concerns and eventually find a company that values the ACM Code of Ethics . In your new role, you feel fulfilled but you still retain a lasting guilt on the damage you may have contributed to.
+
+(set: $storyPath to $storyPath + (a:"Looked for a new job where ethical concerns are prioritized"))
+
+☞[[Endgame]]
+
+
+:: Maintain your current role at COMPANY NAME {"position":"2600,1300","size":"100,100"}
+You decide to maintain your position out of fear that you may not be able to support yourself at a reduced pay.
+
+Your satisfaction with your job declines, and you continue to question your role in the company and the impact of your work on users.
+
+(set: $storyPath to $storyPath + (a:"Maintained your current role at COMPANY NAME"))
+
+(display:"Ending R-C")
+
+
+:: Maybe they have a point.... {"position":"525,1325","size":"100,100"}
+Finally Research UI Standards
+
+You decide to research this type of design (You find it is unethical)
+
+[[Continue work as usual]]
+
+[[This is unethical!]]
+
+
+:: Report the conversation to your supervisor and push for a redesign {"position":"2225,1025","size":"100,100"}
+You report the conversation to your supervisor, expressing your concerns. Your supervisor acknowledges the issues but insists that due to only a small increase in refunds, the damage done to customers is minimal. 
+
+You realize you are powerless in this situation and you begin to question your future at this company. However, your supervisor offers you the the opportunity to work on less ethically concerning projects at a smaller pay.
+
+
+(set: $storyPath to $storyPath + (a:"Reported the conversation you overheard"))
+
+
+[[Look for a new job where ethical concerns are prioritized]]
+
+[[Stay at COMPANY NAME and work at reduced pay]]
+
+[[Maintain your current role at COMPANY NAME]]
+
+
+:: Review The Prototype {"position":"1075,850","size":"100,100"}
+When you look at the prototype, you immediately find it confusing. 
+
+The left arrow, which appears to suggest going back to a previous page or canceling an action, is now the button for accepting the company’s default product. 
+
+The right arrow upgrades the user to the more expensive category while silently adding a protection warranty without  asking for confirmation. 
+
+You realize that this design could lead to users feeling tricked or misled, which would be unethical to implement.
+
+(set: $storyPath to (a: ))
+
+<!--You realize its bad, but still implement it-->
+[[Comply with the supervisor's and client's requests, even though you realize the design might be unethical]]
+
+<!--The "good" path-->
+[[Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics)]]
+
+<!--You dont care that its bad-->
+[[Implements the implementations as-is, boss’s orders!]]
+
+
+:: Secretly implement customer protection features {"position":"1350,1225","size":"100,100"}
+Stewarts changes find its way in to the final product. The client notices lower than expected revenue and complains to supervisor. Supervisor sees that Stewart made the changes. His work is reverted and he is written up
+
+<!--Maybe shouldnt go straight to ending--->
+
+(display:"ENDING B"))
+
+
+:: Start {"position":"1075,500","size":"100,100"}
+You have just landed an exciting role as a UX/UI programmer at (COMPANY NAME), a web development company known for pushing the boundaries of digital design.
+
+This vision, combined with the vibrant, collaborative culture, attracts a diverse range of clients—from innovative tech startups to established enterprises seeking to revolutionize their online presence.
+
+On your first day, your supervisor approaches you with a welcoming smile. "We're excited to have you on board, Steward," they say. "Your first task is a request from one of our major clients: replace the website’s rounded rectangle buttons with arrows and adjust the color palette to mix red and green text.
+
+[[Review The Prototype]]
+
+
+:: Stay Silent and enjoy the free food {"position":"2850,1200","size":"100,100"}
+You decide to ignore everything and continue enjoying the party. The celebration is a success, and you receive praise for your work. However, deep down, you know that the design issues remain unaddressed, and user trust continues to decrease.
+
+(set: $storyPath to $storyPath + (a:"Stayed Silent and enjoy the free food"))
+
+
+(display:"Ending R-C")
+
+
+:: Stay at COMPANY NAME and work at reduced pay {"position":"2025,1225","size":"100,100"}
+You realize that you can no longer work on projects with such ethical concerns.
+
+You decide to accept the offer, and begin work on small and more ethical projects.
+
+The reducted pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfcation in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
+
+(set: $storyPath to $storyPath + (a:"Stayed at COMPANY NAME and worked at reduced pay"))
+
+☞[[Endgame]]
+
+
+:: Stewart adds even more dark pattern ideas (different sized buttons). {"position":"500,1075","size":"100,100"}
+[[Everyone’s got something to say, whatever. Continue work as normal]]
+
+[[Maybe they have a point....]]
+
+
+:: Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics) {"position":"1100,1100","size":"100,100"}
+Different button sizes/colors/arrows doesn’t seem to represent this protection option fairly. Stewart decides to take action
+
+[[Inform Client directly]]
+
+[[Inform Supervisor]]
+
+[[Secretly implement customer protection features]]
+
+
+:: This is unethical! {"position":"675,1450","size":"100,100"}
+(display: "Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics)")
+
+
+:: Try to convince the client that it’s bad (cite code of ethics and potential legal consequences) {"position":"1100,1500","size":"100,100"}
+(display:"ENDING A")
