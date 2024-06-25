@@ -33,6 +33,8 @@ Turns out the client is pleased by your work and has recorded a significant incr
 
 At the celebration, you overhear some of the client’s managers discussing your implementation and you find out that there was a small increase in refunds from users who unintentionally purchased the protection plan as well as complaints regarding accessibility for visual impaired users, causing these users to have important information about their purchase obscured.
 
+(set: $storyPath to $storyPath + (a:"Complied with Supervisor and implemented the design"))
+
 [[Confront the managers on the unethical design]]
 
 [[Stay Silent and enjoy the free food]]
@@ -42,6 +44,8 @@ At the celebration, you overhear some of the client’s managers discussing your
 
 :: Confront the managers on the unethical design {"position":"2425,875","size":"100,100"}
 You decide to speak up and confront the managers about the ethical concerns. They acknowledge the feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
+
+(set: $storyPath to $storyPath + (a:"Confronted the managers on the unethical design"))
 
 [[Report the conversation to your supervisor and push for a redesign]]
 
@@ -55,6 +59,9 @@ Overtime, complaints and refund requests increase but they do not directly affec
 
 Your satisfaction with your job declines, and you start to question your role in the company and the impact of your work on users.
 
+(set: $storyPath to $storyPath + (a:"Continued to comply, focusing on the client's success"))
+
+
 (display:"Ending R-C")
 
 
@@ -67,15 +74,14 @@ You send your findings straight to the client without informing your team. You r
 
 Your supervisor reaches out saying he got an angry email from the client . You supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
 
-[[Switch projects]] 
+[[Switch projects]]
 
 
 :: ENDING B {"position":"1100,1525","size":"100,100"}
-
 The changes were successfully implemented as per the client’s wishes.
 Client has major profit improvements! (unethical)
 
-[[Finish]] 
+[[Finish]]
 
 
 :: ENDING C {"position":"1350,1525","size":"100,100"}
@@ -90,7 +96,7 @@ You are moved to another project and your changes are reverted by someone else f
 [[Finish]]
 
 
-:: Ending R-C {"position":"2750,1325","size":"100,100"}
+:: Ending R-C {"position":"2775,1425","size":"100,100"}
 The next day, you return to work and carry on with your normal tasks, putting the ethical concerns aside as you focus on your daily responsibilities.
 
 [[Finish]]
@@ -102,6 +108,11 @@ The next day, you return to work and carry on with your normal tasks, putting th
 
 :: Finish {"position":"1200,1800","size":"100,100"}
 CYOA Complete!
+
+Actions you took:
+
+(if: $storyPath's length > 0)[
+(for: each _item, ...$storyPath)[*  _item<br>]]
 
 
 :: Help implement the client's original design {"position":"1100,1350","size":"100,100"}
@@ -131,6 +142,8 @@ Over time, complaints and refund requests increase, and although they do not dir
 
 You search for an employer that respects ethical concerns and eventually find a company that values the ACM Code of Ethics . In your new role, you feel fulfilled but you still retain a lasting guilt on the damage you may have contributed to.
 
+(set: $storyPath to $storyPath + (a:"Looked for a new job where ethical concerns are prioritized"))
+
 [[Finish]]
 
 
@@ -138,6 +151,9 @@ You search for an employer that respects ethical concerns and eventually find a 
 You decide to maintain your position out of fear that you may not be able to support yourself at a reduced pay.
 
 Your satisfaction with your job declines, and you continue to question your role in the company and the impact of your work on users.
+
+(set: $storyPath to $storyPath + (a:"Maintained your current role at COMPANY NAME"))
+
 
 (display:"Ending R-C")
 
@@ -156,6 +172,8 @@ You decide to research this type of design (You find it is unethical)
 You report the conversation to your supervisor, expressing your concerns. Your supervisor acknowledges the issues but insists that due to only a small increase in refunds, the damage done to customers is minimal. 
 
 You realize you are powerless in this situation and you begin to question your future at this company. However, your supervisor offers you the the opportunity to work on less ethically concerning projects at a smaller pay.
+
+(set: $storyPath to $storyPath + (a:"Reported the conversation you overheard"))
 
 [[Look for a new job where ethical concerns are prioritized]]
 
@@ -188,6 +206,7 @@ You realize that this design could lead to users feeling tricked or misled, whic
 
 You suspect that this design can harm users by tricking them into buying a protection warranty
 
+(set: $storyPath to (a: ))
 
 <!--You realize its bad, but still implement it-->
 [[Comply with the supervisor's and client's requests, even though you realize the design might be unethical]]
@@ -211,11 +230,6 @@ These changes find its way into the client's final product .
 [[The website goes live]]
 
 
-
-
-
-
-
 :: Start {"position":"1075,500","size":"100,100"}
 You have just landed an exciting role as a UX/UI programmer at (COMPANY NAME), a web development company known for pushing the boundaries of digital design.
 
@@ -229,6 +243,9 @@ On your first day, your supervisor approaches you with a welcoming smile. "We're
 :: Stay Silent and enjoy the free food {"position":"2850,1200","size":"100,100"}
 You decide to ignore everything and continue enjoying the party. The celebration is a success, and you receive praise for your work. However, deep down, you know that the design issues remain unaddressed, and user trust continues to erode.
 
+(set: $storyPath to $storyPath + (a:"Stayed Silent and enjoy the free food"))
+
+
 (display:"Ending R-C")
 
 
@@ -238,6 +255,9 @@ You realize that you can no longer work on projects with such ethical concerns.
 You decide to accept the offer, and begin work on small and more ethical projects.
 
 The reducted pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfcation in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
+
+(set: $storyPath to $storyPath + (a:"Stayed at COMPANY NAME and worked at reduced pay"))
+
 
 [[Finish]]
 
