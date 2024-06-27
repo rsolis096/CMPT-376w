@@ -14,7 +14,7 @@ CMPT376
     "ENDING-B": "red",
     "Ending": "red"
   },
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
@@ -84,7 +84,7 @@ Your satisfaction with your job declines, and you start to question your role in
 (display:"Ending R-C")
 
 
-:: Continue work as usual {"position":"500,1525","size":"100,100"}
+:: Continue work as usual {"position":"475,1475","size":"100,100"}
 (set: $storyPath to $storyPath + (a:"Ultimately decided to take the path of least resistance"))
 
 (display: "ENDING B")
@@ -152,7 +152,7 @@ Actions you took:
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/subscribe.png" alt="Subscribe Button" style="max-width: 150px; max-height: 75px; opacity: 0.5; margin: 0 10px;">
-    <img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/free.avif" alt="Free Label" style="max-width: 150px; max-height: 75px; opacity: 0.5; margin: 0 10px;">
+    <img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/free.avif" alt="Free Label" style="max-width: 150px; max-height: 75px; opacity: 1; margin: 0 10px;">
 </div>
 
 <p>Several weeks after the first few feature implementations, the website gains attention on a popular developer Reddit thread. Users criticize the site for its unethical design, calling out the dark patterns and discussing the negative impact on user experience.</p>
@@ -201,13 +201,12 @@ Your satisfaction with your job declines, and you continue to question your role
 (display:"Ending R-C")
 
 
-:: Maybe they have a point.... {"position":"525,1325","size":"100,100"}
+:: Maybe they have a point.... {"position":"500,1275","size":"100,100"}
 You go on a researching binge looking at UI standards and the concept of dark patterns. You read articles, watch videos, and even attend a webinar on ethical design. You learn that many of the tactics you used are considered manipulative and harmful to users.
 
 You find <a href="https://www.deceptive.design/" target="_blank">https://www.deceptive.design/</a> and it changes everything for you.
 
-<!-- Image goes here -->
-<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/deceptive-patterns-1.png" alt="Descriptive text for the image" style="width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/deceptive-patterns-1.png" alt="Deceptive Pattern Image" style="width: 100%; height: auto;">
 
 Not only that but you realize that ignoring this could have more serious effects down the line. For example, if the client goes down, not only does your pay take a hit but the mere association with the company could leave a stain on your resume!
 
@@ -394,7 +393,7 @@ What do you choose to do about it?
 (display:"ENDING C")
 
 
-:: This is unethical! {"position":"725,1325","size":"100,100"}
+:: This is unethical! {"position":"675,1400","size":"100,100"}
 You come to a realization that the dark patterns you've implemented are highly unethical and harmful to users. You feel a strong urge to correct this.
 
 [[Directly inform the client of your findings]]
@@ -418,3 +417,9 @@ What do you choose to do about it?
 [[Report this to your supervisor]]
 
 [[Secretly implement customer protection features]]
+
+
+:: StoryStylesheet [stylesheet]
+tw-sidebar {
+  display: none; 
+}
