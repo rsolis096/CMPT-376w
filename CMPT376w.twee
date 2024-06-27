@@ -95,6 +95,8 @@ You send your findings straight to the client without informing your team. You r
 
 Your supervisor reaches out saying he got an angry email from the client . You supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
 
+(set: $storyPath to $storyPath + (a:"Informed client directly of your findings"))
+
 [[Switch projects]]
 
 
@@ -129,9 +131,11 @@ The next day, you return to work and carry on with your normal tasks, putting th
 :: Everyone’s got something to say, whatever. Continue work as normal {"position":"225,1425","size":"100,100"}
 You took the path of least resistance, as it's how you've gotten this far in your career.
 
+
 (set: $storyPath to $storyPath + (a:"Ultimately decided to take the path of least resistance"))
 
 [[What's left for me?]] 
+
 
 
 :: Finish {"position":"1675,2175","size":"100,100"}
@@ -235,6 +239,7 @@ You reach out to you supervisor with your concerns of this UI design acting as a
 
 Your supervisor agrees that this current design is unethical but the client is a long-standing business partner with your company. They're one of the company's most profitable clients and it would be harmful to this relationship to make changes to the client's design.
 
+(set: $storyPath to $storyPath + (a:"Informed supervisor of your findings"))
 
 [[Directly inform the client of your findings]]
 
@@ -272,6 +277,8 @@ You re-label the left and right arrows as "Decline Protected Warranty" and "Acce
 You also remove the red and green colors and make both buttons grey. This is so the user isn't automatically swayed to press the green button without reading the page.
 
 These changes find its way into the client's final product .
+
+(set: $storyPath to $storyPath + (a:"Implemented customer protection features without telling anyone"))
 
 [[The website goes live]]
 
@@ -332,13 +339,20 @@ These changes find its way into the client's final product .
     </div>
 
     <div class="main-content">
+    
+           <p></p>
+           <p>Roles: Jay Esquivel - "Implement the Features as-is" branch<br>Rachel Lagasse - "Immediately suspect it's dark patterns" branch<br>Ricardo Solis -  "Comply with the supervisor/client's requests" branch</p>
+           
+        <p>CYOA adapted from <a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/">ACM UX Dark Patterns Case</a></p>
+       
         <p>You have just landed an exciting role as a UX/UI programmer at an amazing company! They're well known for pushing the boundaries of digital design.</p>
-
+      
         <p>This vision, combined with the vibrant, collaborative culture, attracts a diverse range of clients—from innovative tech startups to established enterprises seeking to revolutionize their online presence.</p>
 
         <p>On your first day, your supervisor approaches you with a welcoming smile. "We're excited to have you on board," they say. "Your first task is a request from one of our major clients: replace the website’s rounded rectangle buttons with arrows and adjust the color palette to mix red and green text."</p>
 
         [[Review The Prototype]]
+        
     </div>
 
     <script>
@@ -378,6 +392,8 @@ You recognize that an unsuspecting user could easily add a protection warranty, 
 
 What do you choose to do about it?
 
+(set: $storyPath to $storyPath + (a:"Suspected the client's design had dark patterns"))
+
 [[Directly inform the client of your findings]]
 
 [[Report this to your supervisor]]
@@ -411,6 +427,8 @@ You come to a realization that the dark patterns you've implemented are highly u
 You recognize that an unsuspecting user could easily add a protection warranty, an additional cost, without them realizing it. As a user is buying your client's default project, they will likely assume that a right arrow will take them to the next page. The client's proposed design takes advantage of this and it acts as a dark pattern. This miscommuncation of what the user is agreeing to in their purchase concerns you.
 
 What do you choose to do about it?
+
+(set: $storyPath to $storyPath + (a:"Suspected the client's design had dark patterns"))
 
 [[Directly inform the client of your findings]]
 
