@@ -25,8 +25,7 @@ Some weeks pass...
 
 Unexpectedly, while scrolling through reddit, you see your clients company name in a developer reddit thread for being unethical! 
 
-<!-- Image goes here -->
-<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/reddit.png" alt="Descriptive text for the image" style="width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/reddit.png" alt="Reddit Image" style="width: 100%; height: auto;">
 
 You think... stuff like this happens all the time but it's just one post, right? The website starts picking up more negative attention in the online community. This time, the criticism is even harsher. The site is labeled as a prime example of unethical design, and some users threaten to boycott the company.
 
@@ -134,8 +133,7 @@ You took the path of least resistance, as it's how you've gotten this far in you
 
 (set: $storyPath to $storyPath + (a:"Ultimately decided to take the path of least resistance"))
 
-[[What's left for me?]] 
-
+[[What's left for me?]]
 
 
 :: Finish {"position":"1675,2175","size":"100,100"}
@@ -411,6 +409,10 @@ What do you choose to do about it?
 
 :: This is unethical! {"position":"675,1400","size":"100,100"}
 You come to a realization that the dark patterns you've implemented are highly unethical and harmful to users. You feel a strong urge to correct this.
+
+What do you do to correct this?
+
+(set: $storyPath to $storyPath + (a:"Crossroads: You make a hard moral decision"))
 
 [[Directly inform the client of your findings]]
 
