@@ -31,7 +31,7 @@ You think... stuff like this happens all the time but it's just one post, right?
 
 You think about what this entails for a moment. 
 
-Nobody will know it was you who developing so it won't necessarily affect your career. Not only that but you still have more Dark UX Patterns that the client wants to A/B test.
+Nobody will know it was you who developed it, so it won't necessarily affect your career. Not only that but you still have more Dark UX Patterns that the client wants to A/B test.
 
 How do you respond?
 
@@ -43,13 +43,13 @@ How do you respond?
 
 
 :: Comply with the supervisor's and client's requests, even though you realize the design might be unethical {"position":"2650,1000","size":"100,100"}
-Despite your concerns about the potential confusion and ethical implications of the clients request, you proceed to implement the changes exactly as requested.
+Despite your concerns about the potential confusion and ethical implications of the client's request, you proceed to implement the changes exactly as requested.
 
 Some time after your implementation is deployed, your team is invited to a celebration.
 
 Turns out the client is pleased by your work and has recorded a significant increase in revenue since the new design went live. However, you can't shake off the feeling that something is wrong.
 
-At the celebration, you overhear some of the client’s managers discussing your implementation and you find out that there was a small increase in refunds from users who unintentionally purchased the protection plan as well as complaints regarding accessibility for visual impaired users, causing these users to have important information about their purchase obscured.
+At the celebration, you overhear some of the client’s managers discussing your implementation and you find out that there was a small increase in refunds from users who unintentionally purchased the protection plan, as well as complaints regarding accessibility for visually impaired users, causing these users to have important information about their purchase obscured.
 
 (set: $storyPath to $storyPath + (a:"Complied with Supervisor and implemented the design"))
 
@@ -61,7 +61,7 @@ At the celebration, you overhear some of the client’s managers discussing your
 
 
 :: Confront the managers on the unethical design {"position":"2475,1175","size":"100,100"}
-You decide to speak up and confront the managers about the ethical concerns. They acknowledge the feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
+You decide to speak up and confront the managers about the ethical concerns. They acknowledge your feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
 
 (set: $storyPath to $storyPath + (a:"Confronted the managers on the unethical design"))
 
@@ -92,7 +92,7 @@ Your satisfaction with your job declines, and you start to question your role in
 :: Directly inform the client of your findings {"position":"900,1450","size":"100,100"}
 You send your findings straight to the client without informing your team. You recieve no response.
 
-Your supervisor reaches out saying he got an angry email from the client . You supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
+Your supervisor reaches out saying he got an angry email from the client . Your supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
 
 (set: $storyPath to $storyPath + (a:"Informed client directly of your findings"))
 
@@ -253,7 +253,7 @@ The left arrow, which appears to suggest going back to a previous page or cancel
 
 The right arrow upgrades the user to the more expensive category while silently adding a protection warranty without asking for confirmation. This button is green, in contrast to the left arrow, and may subtly encourage users to click it.
 
-You realize that this design could easily trick or mislead users which would be unethical to implement. This would cause financial harm to the users by tricking them into buying a protection warranty and damage the reputation of the company.
+You realize that this design could easily trick or mislead users, which would be unethical to implement. This would cause financial harm to the users by tricking them into buying a protection warranty and damage the reputation of the company.
 
 (set: $storyPath to (a: ))
 
@@ -377,7 +377,7 @@ You realize that you can no longer work on projects with such ethical concerns.
 
 You decide to accept the offer, and begin work on small and more ethical projects.
 
-The reducted pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfcation in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
+The reduced pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfaction in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
 
 (set: $storyPath to $storyPath + (a:"Stayed at COMPANY NAME and worked at reduced pay"))
 
@@ -386,7 +386,7 @@ The reducted pay leads to financial strain, and you struggle to make ends meet. 
 
 
 :: Suspects that this sounds like dark patterns and chooses to do something about it.n (Read Code of Ethics) {"position":"750,1600","size":"100,100"}
-You recognize that an unsuspecting user could easily add a protection warranty, an additional cost, without them realizing it. As a user is buying your client's default project, they will likely assume that a right arrow will take them to the next page. The client's proposed design takes advantage of this and it acts as a dark pattern. This miscommuncation of what the user is agreeing to in their purchase concerns you.
+You recognize that an unsuspecting user could easily add a protection warranty, an additional cost, without them realizing it. As a user is buying your client's default project, they will likely assume that a right arrow will take them to the next page. The client's proposed design takes advantage of this and it acts as a dark pattern. This miscommunication of what the user is agreeing to with their purchase concerns you.
 
 What do you choose to do about it?
 
