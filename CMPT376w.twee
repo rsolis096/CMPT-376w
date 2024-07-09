@@ -23,7 +23,7 @@ In an attempt to impress the client further, you decide to add additional dark p
 
 Some weeks pass...
 
-Unexpectedly, while scrolling through reddit, you see your clients company name in a developer reddit thread for being unethical! 
+Unexpectedly, while scrolling through reddit, you see your clients the company in a developer reddit thread for being unethical! 
 
 <img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/reddit.png" alt="Reddit Image" style="width: 100%; height: auto;">
 
@@ -51,7 +51,7 @@ Turns out the client is pleased by your work and has recorded a significant incr
 
 At the celebration, you overhear some of the client’s managers discussing your implementation and you find out that there was a small increase in refunds from users who unintentionally purchased the protection plan, as well as complaints regarding accessibility for visually impaired users, causing these users to have important information about their purchase obscured.
 
-(set: $storyPath to $storyPath + (a:"Complied with Supervisor and implemented the design"))
+(set: $storyPath to $storyPath + (a:"Complied with the supervisor and implemented the design"))
 
 [[Confront the managers on the unethical design]]
 
@@ -192,12 +192,12 @@ You search for an employer that respects ethical concerns and eventually find a 
 [[Finish]]
 
 
-:: Maintain your current role at COMPANY NAME {"position":"2650,1600","size":"100,100"}
+:: Maintain your current role at the company {"position":"2650,1600","size":"100,100"}
 You decide to maintain your position out of fear that you may not be able to support yourself at a reduced pay.
 
 Your satisfaction with your job declines, and you continue to question your role in the company and the impact of your work on users.
 
-(set: $storyPath to $storyPath + (a:"Maintained your current role at COMPANY NAME"))
+(set: $storyPath to $storyPath + (a:"Maintained your current role at the company"))
 
 
 (display:"Ending R-C")
@@ -227,9 +227,9 @@ You realize you are powerless in this situation and you begin to question your f
 
 [[Look for a new job where ethical concerns are prioritized]]
 
-[[Stay at COMPANY NAME and work at reduced pay]]
+[[Stay at the company and work at reduced pay]]
 
-[[Maintain your current role at COMPANY NAME]]
+[[Maintain your current role at the company]]
 
 
 :: Report this to your supervisor {"position":"1100,1450","size":"100,100"}
@@ -366,20 +366,20 @@ These changes find its way into the client's final product .
 :: Stay Silent and enjoy the free food {"position":"2900,1500","size":"100,100"}
 You decide to ignore everything and continue enjoying the party. The celebration is a success, and you receive praise for your work. However, deep down, you know that the design issues remain unaddressed, and user trust continues to erode.
 
-(set: $storyPath to $storyPath + (a:"Stayed Silent and enjoy the free food"))
+(set: $storyPath to $storyPath + (a:"Stayed silent and enjoy the party"))
 
 
 (display:"Ending R-C")
 
 
-:: Stay at COMPANY NAME and work at reduced pay {"position":"2075,1525","size":"100,100"}
+:: Stay at the company and work at reduced pay {"position":"2075,1525","size":"100,100"}
 You realize that you can no longer work on projects with such ethical concerns.
 
 You decide to accept the offer, and begin work on small and more ethical projects.
 
 The reduced pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfaction in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
 
-(set: $storyPath to $storyPath + (a:"Stayed at COMPANY NAME and worked at reduced pay"))
+(set: $storyPath to $storyPath + (a:"Stayed at the company and worked at reduced pay"))
 
 
 [[Finish]]
