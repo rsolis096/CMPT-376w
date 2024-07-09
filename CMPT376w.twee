@@ -71,7 +71,7 @@ You decide to speak up and confront the managers about the ethical concerns. The
 
 
 :: Continue to comply, focusing on the client's revenue success {"position":"2750,1500","size":"100,100"}
-Despite overhearing this conversation, you decide to continue complying with the client'sand supervisor's focus on revenue. 
+Despite overhearing this conversation, you decide to continue complying with the client's and supervisor's focus on revenue. 
 
 Overtime, complaints and refund requests increase but they do not directly affect you.
 
@@ -233,7 +233,7 @@ You realize you are powerless in this situation and you begin to question your f
 
 
 :: Report this to your supervisor {"position":"1100,1450","size":"100,100"}
-You reach out to you supervisor with your concerns of this UI design acting as a dark pattern. It can easily decieve users into accidentally buying a protection warranty when they didn't want one. 
+You reach out to your supervisor with your concerns of this UI design acting as a dark pattern. It can easily decieve users into accidentally buying a protection warranty when they didn't want one. 
 
 Your supervisor agrees that this current design is unethical but the client is a long-standing business partner with your company. They're one of the company's most profitable clients and it would be harmful to this relationship to make changes to the client's design.
 
@@ -339,7 +339,7 @@ These changes find its way into the client's final product .
     <div class="main-content">
     
            <p></p>
-           <p>Roles: Jay Esquivel - "Implement the Features as-is" branch<br>Rachel Lagasse - "Immediately suspect it's dark patterns" branch<br>Ricardo Solis -  "Comply with the supervisor/client's requests" branch</p>
+           <p>Roles: Jay Esquivel - "Implement the Features as-is" branch<br>Rachel Lagasse - "Immediately suspect dark patterns" branch<br>Ricardo Solis -  "Comply with the supervisor/client's requests" branch</p>
            
         <p>CYOA adapted from <a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/">ACM UX Dark Patterns Case</a></p>
        
