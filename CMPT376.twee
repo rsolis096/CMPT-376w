@@ -25,8 +25,7 @@ Some weeks pass...
 
 Unexpectedly, while scrolling through Reddit, you see your clients company name in a developer Reddit thread for being unethical! 
 
-<!-- Image goes here -->
-<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/reddit.png" alt="Descriptive text for the image" style="width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/rsolis096/CMPT-376w/main/resources/images/reddit.png" alt="Reddit Image" style="width: 100%; height: auto;">
 
 You think... stuff like this happens all the time but it's just one post, right? The website starts picking up more negative attention in the online community. This time, the criticism is even harsher. The site is labeled as a prime example of unethical design, and some users threaten to boycott the company.
 
@@ -44,7 +43,7 @@ How do you respond?
 
 
 :: Confront the managers on the unethical design {"position":"2475,1175","size":"100,100"}
-You decide to speak up and confront the managers about the ethical concerns. They acknowledge the feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
+You decide to speak up and confront the managers about the ethical concerns. They acknowledge your feedback but dismiss it, emphasizing the increase in revenue as the primary measure of success.
 
 (set: $storyPath to $storyPath + (a:"Confronted the managers on the unethical design"))
 
@@ -75,7 +74,7 @@ Your satisfaction with your job declines, and you start to question your role in
 :: Directly inform the client of your findings {"position":"925,1325","size":"100,100"}
 You send your findings straight to the client without informing your team. You recieve no response.
 
-Your supervisor reaches out saying he got an angry email from the client . You supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
+Your supervisor reaches out saying he got an angry email from the client . Your supervisor expresses his frustration that you didn't keep your team in the loop. He warns you to consider your future decisions carefully in this role. You are moved to another project and development as per the clients wishes continues as usual.
 
 (set: $storyPath to $storyPath + (a:"Informed client directly of your findings"))
 
@@ -209,12 +208,12 @@ You search for an employer that respects ethical concerns and eventually find a 
 [[Finish]]
 
 
-:: Maintain your current role at COMPANY NAME {"position":"2650,1600","size":"100,100"}
+:: Maintain your current role at the company {"position":"2650,1600","size":"100,100"}
 You decide to maintain your position out of fear that you may not be able to support yourself at a reduced pay.
 
 Your satisfaction with your job declines, and you continue to question your role in the company and the impact of your work on users.
 
-(set: $storyPath to $storyPath + (a:"Maintained your current role at COMPANY NAME"))
+(set: $storyPath to $storyPath + (a:"Maintained your current role at the company"))
 
 
 (display:"Ending R-C")
@@ -244,9 +243,9 @@ You realize you are powerless in this situation and you begin to question your f
 
 [[Look for a new job where ethical concerns are prioritized]]
 
-[[Stay at COMPANY NAME and work at reduced pay]]
+[[Stay at the company and work at reduced pay]]
 
-[[Maintain your current role at COMPANY NAME]]
+[[Maintain your current role at the company]]
 
 
 :: Report this to your supervisor {"position":"1175,1525","size":"100,100"}
@@ -268,7 +267,7 @@ The left arrow, which appears to suggest going back to a previous page or cancel
 
 The right arrow upgrades the user to the more expensive category while silently adding a protection warranty without asking for confirmation. This button is green, in contrast to the left arrow, and may subtly encourage users to click it.
 
-You realize that this design could easily trick or mislead users which would be unethical to implement. This would cause financial harm to the users by tricking them into buying a protection warranty and damage the reputation of the company.
+You realize that this design could easily trick or mislead users, which would be unethical to implement. This would cause financial harm to the users by tricking them into buying a protection warranty and damage the reputation of the company.
 
 (set: $storyPath to (a: ))
 
@@ -356,7 +355,7 @@ These changes find its way into the client's final product .
     <div class="main-content">
     
            <p></p>
-           <p>Roles: Jay Esquivel - "Implement the Features as-is" branch<br>Rachel Lagasse - "Immediately suspect it's dark patterns" branch<br>Ricardo Solis -  "Comply with the supervisor/client's requests" branch</p>
+           <p>Roles: Jay Esquivel - "Implement the Features as-is" branch<br>Rachel Lagasse - "Immediately suspect dark patterns" branch<br>Ricardo Solis -  "Comply with the supervisor/client's requests" branch</p>
            
         <p>CYOA adapted from <a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/">ACM UX Dark Patterns Case</a></p>
        
@@ -385,9 +384,9 @@ You realize that you can no longer work on projects with such ethical concerns.
 
 You decide to accept the offer, and begin work on small and more ethical projects.
 
-The reducted pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfcation in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
+The reduced pay leads to financial strain, and you struggle to make ends meet. Despite this, you find some satisfaction in knowing your work is more ethical, though the constant financial pressure begins to weigh heavily on you.
 
-(set: $storyPath to $storyPath + (a:"Stayed at COMPANY NAME and worked at reduced pay"))
+(set: $storyPath to $storyPath + (a:"Stayed at the company and worked at reduced pay"))
 
 
 [[Finish]]
@@ -404,6 +403,10 @@ You decide to ignore everything and continue enjoying the party. The celebration
 
 :: Suspect that the client's request is unethical {"position":"675,1400","size":"100,100"}
 You come to a realization that the dark patterns you've implemented are highly unethical and harmful to users. You feel a strong urge to correct this.
+
+What do you do to correct this?
+
+(set: $storyPath to $storyPath + (a:"Crossroads: You make a hard moral decision"))
 
 [[Directly inform the client of your findings]]
 
